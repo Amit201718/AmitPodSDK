@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'AmitPodSDK_Example' do
+  pod 'AmitPodSDK', :path => '../'
+
+  target 'AmitPodSDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
