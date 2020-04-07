@@ -10,8 +10,6 @@
 		B171877B243CA0B5001C39C7 /* AmitSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1718771243CA0B5001C39C7 /* AmitSDK.framework */; };
 		B1718780243CA0B5001C39C7 /* AmitSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B171877F243CA0B5001C39C7 /* AmitSDKTests.m */; };
 		B1718782243CA0B5001C39C7 /* AmitSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = B1718774243CA0B5001C39C7 /* AmitSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B171878D243CA116001C39C7 /* SDKVersionClass.h in Headers */ = {isa = PBXBuildFile; fileRef = B171878B243CA116001C39C7 /* SDKVersionClass.h */; };
-		B171878E243CA116001C39C7 /* SDKVersionClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B171878C243CA116001C39C7 /* SDKVersionClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +29,6 @@
 		B171877A243CA0B5001C39C7 /* AmitSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AmitSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B171877F243CA0B5001C39C7 /* AmitSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AmitSDKTests.m; sourceTree = "<group>"; };
 		B1718781243CA0B5001C39C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B171878B243CA116001C39C7 /* SDKVersionClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDKVersionClass.h; sourceTree = "<group>"; };
-		B171878C243CA116001C39C7 /* SDKVersionClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKVersionClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				B1718774243CA0B5001C39C7 /* AmitSDK.h */,
-				B171878B243CA116001C39C7 /* SDKVersionClass.h */,
-				B171878C243CA116001C39C7 /* SDKVersionClass.m */,
 				B1718775243CA0B5001C39C7 /* Info.plist */,
 			);
 			path = AmitSDK;
@@ -100,7 +94,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1718782243CA0B5001C39C7 /* AmitSDK.h in Headers */,
-				B171878D243CA116001C39C7 /* SDKVersionClass.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,7 +194,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B171878E243CA116001C39C7 /* SDKVersionClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
